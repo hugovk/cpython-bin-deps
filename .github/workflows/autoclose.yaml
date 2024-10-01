@@ -20,7 +20,7 @@ jobs:
         done
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPO_NAME: python/cpython-bin-deps
+        REPO_NAME: hugovk/cpython-bin-deps
         COMMENT: >
             We do not accept PRs on this repository. Please file an issue at
             https://github.com/python/cpython requesting an update to the
